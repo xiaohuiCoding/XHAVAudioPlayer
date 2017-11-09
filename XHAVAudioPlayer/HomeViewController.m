@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    self.title = @"AVAudioPlayer";
     UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"->" style:UIBarButtonItemStylePlain target:self action:@selector(pushToNextPage)];
     self.navigationItem.rightBarButtonItem = rightBarButtonItem;
 }
